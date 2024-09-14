@@ -8,3 +8,12 @@ content-type: application/json
 }
 
 ### 
+get http://localhost:3333/pending-goals HTTP/1.1
+
+### 
+post http://localhost:3333/completions HTTP/1.1
+content-type: application/json
+
+{
+    "goalId": "fwl6frkzmxyptwqfryu63350"
+}
